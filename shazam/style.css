@@ -1,0 +1,206 @@
+body {
+  background-color: #141414;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.shazam-footer {
+  padding-top: 4rem;
+}
+
+.shazam-footer .shazam-app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.shazam-footer .shazam-app .logo {
+  color: white;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 2rem;
+}
+
+.shazam-footer .shazam-app .logo img {
+  width: 6%;
+  border: 1px solid grey;
+  border-radius: 50%;
+  background-color: grey;
+}
+
+.shazam-footer .shazam-app .logo P {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 15px 0 0 5px;
+}
+
+.shazam-footer .shazam-app .select-language .language {
+  width: 40%;
+  background-color: #141414;
+  border: 1px solid grey;
+  padding: 10px 32px 10px 15px;
+  color: grey;
+  font-size: 1.2rem;
+}
+
+.shazam-footer .shazam-app .select-language .language option {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.shazam-footer .shazam-app .app {
+  padding-top: 3rem;
+}
+
+.shazam-footer .shazam-app .app img {
+  width: 20%;
+  padding-right: 15px;
+}
+
+.shazam-footer .shazam-app .company ul {
+  list-style: none;
+}
+
+.shazam-footer .shazam-app .company ul li {
+  color: grey;
+  line-height: 40px;
+}
+
+.shazam-footer .shazam-app .company ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.shazam-footer .shazam-app .company ul li a:hover {
+  text-decoration: underline;
+}
+
+.shazam-footer .sosial {
+  text-align: center;
+  color: white;
+  padding-top: 2rem;
+}
+
+.shazam-footer .sosial h4 {
+  color: grey;
+  padding-bottom: 2rem;
+}
+
+.shazam-footer .sosial .media ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.shazam-footer .sosial .media ul li {
+  font-size: 1.5rem;
+  padding-right: 30px;
+}
+
+.shazam-footer .sosial .media ul li a {
+  text-align: center;
+  color: white;
+}
+
+.shazam-footer .sosial p {
+  color: grey;
+}
+
+.shazam-footer .sosial p a {
+  color: grey;
+  text-decoration: none;
+}
+
+.shazam-footer .sosial p a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+  .shazam-footer {
+    padding-top: 4rem;
+  }
+  .shazam-footer .shazam-app {
+    display: block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .shazam-footer .shazam-app .logo {
+    color: white;
+    text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 2rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .shazam-footer .shazam-app .logo img {
+    width: 6%;
+    border: 1px solid grey;
+    border-radius: 50%;
+    background-color: grey;
+  }
+  .shazam-footer .shazam-app .logo P {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 15px 0 0 5px;
+  }
+  .shazam-footer .shazam-app .select-language .language {
+    width: 40%;
+    background-color: #141414;
+    border: 1px solid grey;
+    padding: 10px 32px 10px 15px;
+    color: grey;
+    font-size: 1.2rem;
+  }
+  .shazam-footer .shazam-app .select-language .language option {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .shazam-footer .shazam-app .app {
+    padding-top: 3rem;
+  }
+  .shazam-footer .shazam-app .app img {
+    width: 20%;
+    padding-right: 15px;
+  }
+  .shazam-footer .shazam-app .company ul {
+    list-style: none;
+  }
+  .shazam-footer .shazam-app .company ul li {
+    color: grey;
+    line-height: 40px;
+  }
+  .shazam-footer .shazam-app .company ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  .shazam-footer .shazam-app .company ul li a:hover {
+    text-decoration: underline;
+  }
+}
+/*# sourceMappingURL=style.css.map */
